@@ -1,0 +1,10 @@
+[ 2024-10-31 22:08:20,662 ] 13 root - INFO - Initiate the data ingestion...
+[ 2024-10-31 22:08:22,675 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-10-31 22:08:22,675 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-10-31 22:08:22,675 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-10-31 22:08:22,755 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-10-31 22:13:34,955 ] 13 root - INFO - Initiate the data ingestion...
+[ 2024-10-31 22:13:40,101 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-10-31 22:13:40,101 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-10-31 22:13:40,101 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-10-31 22:13:40,175 ] 90 root - INFO -  Exported train and test file paths 
