@@ -229,3 +229,102 @@ networksecurity.exception.exception.NetworkSecurityException: Error occured in p
 [ 2024-11-01 18:29:55,947 ] 114 root - INFO - Model Trainer Artifact is : ModelTrainerArtifact(trained_model_file_path='Artifacts\\11_01_2024_18_28_17\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9915185783521809), precision_score=np.float64(0.9883252818035426), recall_score=np.float64(0.9947325769854133)), test_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9737161342498989), precision_score=np.float64(0.9616613418530351), recall_score=np.float64(0.9860769860769861)))
 [ 2024-11-01 18:29:55,954 ] 87 root - INFO - Model training completed and artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\11_01_2024_18_28_17\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9915185783521809), precision_score=np.float64(0.9883252818035426), recall_score=np.float64(0.9947325769854133)), test_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9737161342498989), precision_score=np.float64(0.9616613418530351), recall_score=np.float64(0.9860769860769861)))
 [ 2024-11-01 18:29:55,955 ] 35 root - INFO - Training pipeline completed successfully.
+[ 2024-11-01 18:39:16,465 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-11-01 18:39:16,472 ] 107 dagshub - INFO - Accessing as stevenayare
+[ 2024-11-01 18:39:16,848 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/stevenayare/Net_project "HTTP/1.1 200 OK"
+[ 2024-11-01 18:39:16,855 ] 107 dagshub - INFO - Initialized MLflow to track repo "stevenayare/Net_project"
+[ 2024-11-01 18:39:16,855 ] 107 dagshub - INFO - Repository stevenayare/Net_project initialized!
+[ 2024-11-01 18:43:32,224 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-11-01 18:43:32,224 ] 107 dagshub - INFO - Accessing as stevenayare
+[ 2024-11-01 18:43:32,605 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/stevenayare/Net_project "HTTP/1.1 200 OK"
+[ 2024-11-01 18:43:32,605 ] 107 dagshub - INFO - Initialized MLflow to track repo "stevenayare/Net_project"
+[ 2024-11-01 18:43:32,605 ] 107 dagshub - INFO - Repository stevenayare/Net_project initialized!
+[ 2024-11-01 18:44:33,006 ] 68 root - ERROR - Prediction failed: Error occured in python script name [C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\utils\main_utils\utils.py] line number [55] error message [File path final_model/preprocessor.pkl%s does not exist]
+Traceback (most recent call last):
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\utils\main_utils\utils.py", line 55, in load_object
+    raise Exception(f"File path {file_path}%s does not exist")
+Exception: File path final_model/preprocessor.pkl%s does not exist
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\app.py", line 54, in <module>
+    preprocessor = load_object("final_model/preprocessor.pkl")
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\utils\main_utils\utils.py", line 63, in load_object
+    raise NetworkSecurityException(e,sys)
+networksecurity.exception.exception.NetworkSecurityException: Error occured in python script name [C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\utils\main_utils\utils.py] line number [55] error message [File path final_model/preprocessor.pkl%s does not exist]
+[ 2024-11-01 18:48:08,994 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-11-01 18:48:08,994 ] 107 dagshub - INFO - Accessing as stevenayare
+[ 2024-11-01 18:48:09,384 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/stevenayare/Net_project "HTTP/1.1 200 OK"
+[ 2024-11-01 18:48:09,384 ] 107 dagshub - INFO - Initialized MLflow to track repo "stevenayare/Net_project"
+[ 2024-11-01 18:48:09,384 ] 107 dagshub - INFO - Repository stevenayare/Net_project initialized!
+[ 2024-11-01 18:48:14,404 ] 68 root - ERROR - Prediction failed: Error occured in python script name [C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\utils\ml_utils\model\estimator.py] line number [19] error message [The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Result
+]
+Traceback (most recent call last):
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\utils\ml_utils\model\estimator.py", line 19, in predict
+    x_transform = self.preprocessor.transform(x)
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\venv\lib\site-packages\sklearn\pipeline.py", line 903, in transform
+    Xt = transform.transform(Xt, **routed_params[name].transform)
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\venv\lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\venv\lib\site-packages\sklearn\impute\_knn.py", line 266, in transform
+    X = self._validate_data(
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\venv\lib\site-packages\sklearn\base.py", line 608, in _validate_data
+    self._check_feature_names(X, reset=reset)
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\venv\lib\site-packages\sklearn\base.py", line 535, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Result
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\app.py", line 59, in <module>
+    y_pred = network_model.predict(df)
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\utils\ml_utils\model\estimator.py", line 26, in predict
+    raise NetworkSecurityException(e,sys)
+networksecurity.exception.exception.NetworkSecurityException: Error occured in python script name [C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\utils\ml_utils\model\estimator.py] line number [19] error message [The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Result
+]
+[ 2024-11-01 18:55:11,530 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-11-01 18:55:11,537 ] 107 dagshub - INFO - Accessing as stevenayare
+[ 2024-11-01 18:55:12,013 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/stevenayare/Net_project "HTTP/1.1 200 OK"
+[ 2024-11-01 18:55:12,013 ] 107 dagshub - INFO - Initialized MLflow to track repo "stevenayare/Net_project"
+[ 2024-11-01 18:55:12,019 ] 107 dagshub - INFO - Repository stevenayare/Net_project initialized!
+[ 2024-11-01 18:55:18,777 ] 68 root - ERROR - Prediction failed: Cannot save file into a non-existent directory: 'prediction_output'
+Traceback (most recent call last):
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\app.py", line 65, in <module>
+    df.to_csv('prediction_output/output.csv', index=False)
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\venv\lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\venv\lib\site-packages\pandas\core\generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\venv\lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\venv\lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\venv\lib\site-packages\pandas\io\common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\venv\lib\site-packages\pandas\io\common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'prediction_output'
+[ 2024-11-01 19:01:01,119 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/stevenayare/Net_project "HTTP/1.1 200 OK"
+[ 2024-11-01 19:01:01,119 ] 107 dagshub - INFO - Initialized MLflow to track repo "stevenayare/Net_project"
+[ 2024-11-01 19:01:01,119 ] 107 dagshub - INFO - Repository stevenayare/Net_project initialized!
+[ 2024-11-01 19:03:31,919 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/stevenayare/Net_project "HTTP/1.1 200 OK"
+[ 2024-11-01 19:03:31,919 ] 107 dagshub - INFO - Initialized MLflow to track repo "stevenayare/Net_project"
+[ 2024-11-01 19:03:31,919 ] 107 dagshub - INFO - Repository stevenayare/Net_project initialized!
+[ 2024-11-01 19:13:42,418 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/stevenayare/Net_project "HTTP/1.1 200 OK"
+[ 2024-11-01 19:13:42,427 ] 107 dagshub - INFO - Initialized MLflow to track repo "stevenayare/Net_project"
+[ 2024-11-01 19:13:42,427 ] 107 dagshub - INFO - Repository stevenayare/Net_project initialized!
+[ 2024-11-01 19:15:30,615 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/stevenayare/Net_project "HTTP/1.1 200 OK"
+[ 2024-11-01 19:15:30,615 ] 107 dagshub - INFO - Initialized MLflow to track repo "stevenayare/Net_project"
+[ 2024-11-01 19:15:30,615 ] 107 dagshub - INFO - Repository stevenayare/Net_project initialized!
+[ 2024-11-01 19:17:34,444 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/stevenayare/Net_project "HTTP/1.1 200 OK"
+[ 2024-11-01 19:17:34,454 ] 107 dagshub - INFO - Initialized MLflow to track repo "stevenayare/Net_project"
+[ 2024-11-01 19:17:34,454 ] 107 dagshub - INFO - Repository stevenayare/Net_project initialized!
