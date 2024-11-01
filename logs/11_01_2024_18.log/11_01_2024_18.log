@@ -1,0 +1,231 @@
+[ 2024-11-01 18:00:32,850 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-11-01 18:00:32,860 ] 107 dagshub - INFO - Accessing as stevenayare
+[ 2024-11-01 18:00:33,234 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/stevenayare/Net_project "HTTP/1.1 200 OK"
+[ 2024-11-01 18:00:33,234 ] 107 dagshub - INFO - Initialized MLflow to track repo "stevenayare/Net_project"
+[ 2024-11-01 18:00:33,234 ] 107 dagshub - INFO - Repository stevenayare/Net_project initialized!
+[ 2024-11-01 18:00:56,151 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-11-01 18:00:56,160 ] 107 dagshub - INFO - Accessing as stevenayare
+[ 2024-11-01 18:00:56,523 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/stevenayare/Net_project "HTTP/1.1 200 OK"
+[ 2024-11-01 18:00:56,533 ] 107 dagshub - INFO - Initialized MLflow to track repo "stevenayare/Net_project"
+[ 2024-11-01 18:00:56,533 ] 107 dagshub - INFO - Repository stevenayare/Net_project initialized!
+[ 2024-11-01 18:00:56,620 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8000
+[ 2024-11-01 18:00:56,620 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-11-01 18:00:56,622 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2024-11-01 18:01:00,216 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-11-01 18:01:00,216 ] 107 dagshub - INFO - Accessing as stevenayare
+[ 2024-11-01 18:01:00,585 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/stevenayare/Net_project "HTTP/1.1 200 OK"
+[ 2024-11-01 18:01:00,588 ] 107 dagshub - INFO - Initialized MLflow to track repo "stevenayare/Net_project"
+[ 2024-11-01 18:01:00,590 ] 107 dagshub - INFO - Repository stevenayare/Net_project initialized!
+[ 2024-11-01 18:01:00,690 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-11-01 18:01:00,693 ] 97 werkzeug - INFO -  * Debugger PIN: 621-731-963
+[ 2024-11-01 18:01:05,539 ] 40 root - INFO - Starting training pipeline.
+[ 2024-11-01 18:01:05,539 ] 46 root - ERROR - Error in training pipeline
+Traceback (most recent call last):
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\app.py", line 41, in train_route
+    train_pipeline = TrainingPipeline()
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\pipeline\training_pipeline.py", line 36, in __init__
+    self.s3_sync = S3Sync()
+NameError: name 'S3Sync' is not defined
+[ 2024-11-01 18:01:05,549 ] 97 werkzeug - INFO - 127.0.0.1 - - [01/Nov/2024 18:01:05] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2024-11-01 18:01:05,850 ] 97 werkzeug - INFO - 127.0.0.1 - - [01/Nov/2024 18:01:05] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2024-11-01 18:01:05,880 ] 97 werkzeug - INFO - 127.0.0.1 - - [01/Nov/2024 18:01:05] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2024-11-01 18:01:05,894 ] 97 werkzeug - INFO - 127.0.0.1 - - [01/Nov/2024 18:01:05] "GET /train?__debugger__=yes&cmd=resource&f=console.png&s=mFeXgMFMgKmpBigNOfup HTTP/1.1" 200 -
+[ 2024-11-01 18:01:06,212 ] 97 werkzeug - INFO - 127.0.0.1 - - [01/Nov/2024 18:01:06] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-11-01 18:04:05,211 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-11-01 18:04:05,211 ] 107 dagshub - INFO - Accessing as stevenayare
+[ 2024-11-01 18:04:05,582 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/stevenayare/Net_project "HTTP/1.1 200 OK"
+[ 2024-11-01 18:04:05,585 ] 107 dagshub - INFO - Initialized MLflow to track repo "stevenayare/Net_project"
+[ 2024-11-01 18:04:05,587 ] 107 dagshub - INFO - Repository stevenayare/Net_project initialized!
+[ 2024-11-01 18:04:05,678 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8000
+[ 2024-11-01 18:04:05,678 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-11-01 18:04:05,680 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2024-11-01 18:04:09,293 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-11-01 18:04:09,293 ] 107 dagshub - INFO - Accessing as stevenayare
+[ 2024-11-01 18:04:10,809 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/stevenayare/Net_project "HTTP/1.1 200 OK"
+[ 2024-11-01 18:04:10,812 ] 107 dagshub - INFO - Initialized MLflow to track repo "stevenayare/Net_project"
+[ 2024-11-01 18:04:10,814 ] 107 dagshub - INFO - Repository stevenayare/Net_project initialized!
+[ 2024-11-01 18:04:10,911 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-11-01 18:04:10,915 ] 97 werkzeug - INFO -  * Debugger PIN: 621-731-963
+[ 2024-11-01 18:04:12,332 ] 40 root - INFO - Starting training pipeline.
+[ 2024-11-01 18:04:12,332 ] 43 root - INFO - Start data Ingestion
+[ 2024-11-01 18:04:13,614 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 18:04:13,614 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 18:04:13,614 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 18:04:13,694 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 18:04:13,694 ] 46 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\11_01_2024_18_04_06\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\11_01_2024_18_04_06\\data_ingestion\\ingested\\test.csv')
+[ 2024-11-01 18:04:13,704 ] 56 root - INFO - Initiate the data Validation
+[ 2024-11-01 18:04:13,774 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 18:04:13,774 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 18:04:13,774 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 18:04:13,774 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 18:04:14,038 ] 58 root - INFO - Data Validation completed and artifact: DataValidationArtifact(validation_status=None, valid_train_file_path='Artifacts\\11_01_2024_18_04_06\\data_ingestion\\ingested\\train.csv', valid_test_file_path='Artifacts\\11_01_2024_18_04_06\\data_ingestion\\ingested\\test.csv', invalid_train_file_path=None, invalid_test_file_path=None, drift_report_file_path='Artifacts\\11_01_2024_18_04_06\\data_validation\\drift_report\\report.yaml')
+[ 2024-11-01 18:04:14,038 ] 68 root - INFO - Initiate the data Transformation
+[ 2024-11-01 18:04:14,038 ] 58 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 18:04:14,038 ] 60 root - INFO - starting data_transformation
+[ 2024-11-01 18:04:14,072 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
+[ 2024-11-01 18:04:14,072 ] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-01 18:04:14,082 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 18:04:14,082 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 18:04:14,082 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 18:04:14,082 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 18:04:14,082 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 18:04:14,092 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 18:04:14,092 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 18:04:14,092 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 18:04:14,092 ] 70 root - INFO - Data Transformation completed and artifact: DataTransformationArtifact(transformed_object_file_path='Artifacts\\11_01_2024_18_04_06\\data_transformations\\transformed_object\\preprocessing.pkl', transformed_train_file_path='Artifacts\\11_01_2024_18_04_06\\data_transformations\\transformed\\train.npy', transformed_test_file_path='Artifacts\\11_01_2024_18_04_06\\data_transformations\\transformed\\test.npy')
+[ 2024-11-01 18:04:14,092 ] 85 root - INFO - Initiate the Model trainer
+[ 2024-11-01 18:04:48,895 ] 97 werkzeug - INFO - 127.0.0.1 - - [01/Nov/2024 18:04:48] "[32mGET / HTTP/1.1[0m" 302 -
+[ 2024-11-01 18:04:49,242 ] 97 werkzeug - INFO - 127.0.0.1 - - [01/Nov/2024 18:04:49] "[33mGET /docs HTTP/1.1[0m" 404 -
+[ 2024-11-01 18:05:21,086 ] 40 root - INFO - Starting training pipeline.
+[ 2024-11-01 18:05:21,086 ] 43 root - INFO - Start data Ingestion
+[ 2024-11-01 18:05:21,910 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 18:05:21,910 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 18:05:21,910 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 18:05:22,002 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 18:05:22,003 ] 46 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\11_01_2024_18_04_06\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\11_01_2024_18_04_06\\data_ingestion\\ingested\\test.csv')
+[ 2024-11-01 18:05:22,014 ] 56 root - INFO - Initiate the data Validation
+[ 2024-11-01 18:05:22,075 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 18:05:22,075 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 18:05:22,075 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 18:05:22,075 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 18:05:22,264 ] 58 root - INFO - Data Validation completed and artifact: DataValidationArtifact(validation_status=None, valid_train_file_path='Artifacts\\11_01_2024_18_04_06\\data_ingestion\\ingested\\train.csv', valid_test_file_path='Artifacts\\11_01_2024_18_04_06\\data_ingestion\\ingested\\test.csv', invalid_train_file_path=None, invalid_test_file_path=None, drift_report_file_path='Artifacts\\11_01_2024_18_04_06\\data_validation\\drift_report\\report.yaml')
+[ 2024-11-01 18:05:22,264 ] 68 root - INFO - Initiate the data Transformation
+[ 2024-11-01 18:05:22,264 ] 58 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 18:05:22,265 ] 60 root - INFO - starting data_transformation
+[ 2024-11-01 18:05:22,292 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
+[ 2024-11-01 18:05:22,292 ] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-01 18:05:22,309 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 18:05:22,310 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 18:05:22,310 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 18:05:22,310 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 18:05:22,310 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 18:05:22,310 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 18:05:22,310 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 18:05:22,310 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 18:05:22,319 ] 70 root - INFO - Data Transformation completed and artifact: DataTransformationArtifact(transformed_object_file_path='Artifacts\\11_01_2024_18_04_06\\data_transformations\\transformed_object\\preprocessing.pkl', transformed_train_file_path='Artifacts\\11_01_2024_18_04_06\\data_transformations\\transformed\\train.npy', transformed_test_file_path='Artifacts\\11_01_2024_18_04_06\\data_transformations\\transformed\\test.npy')
+[ 2024-11-01 18:05:22,319 ] 85 root - INFO - Initiate the Model trainer
+[ 2024-11-01 18:05:30,070 ] 40 root - INFO - Starting training pipeline.
+[ 2024-11-01 18:05:30,070 ] 43 root - INFO - Start data Ingestion
+[ 2024-11-01 18:05:31,175 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 18:05:31,176 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 18:05:31,176 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 18:05:31,283 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 18:05:31,284 ] 46 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\11_01_2024_18_04_06\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\11_01_2024_18_04_06\\data_ingestion\\ingested\\test.csv')
+[ 2024-11-01 18:05:31,299 ] 56 root - INFO - Initiate the data Validation
+[ 2024-11-01 18:05:31,392 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 18:05:31,392 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 18:05:31,392 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 18:05:31,392 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 18:05:31,887 ] 58 root - INFO - Data Validation completed and artifact: DataValidationArtifact(validation_status=None, valid_train_file_path='Artifacts\\11_01_2024_18_04_06\\data_ingestion\\ingested\\train.csv', valid_test_file_path='Artifacts\\11_01_2024_18_04_06\\data_ingestion\\ingested\\test.csv', invalid_train_file_path=None, invalid_test_file_path=None, drift_report_file_path='Artifacts\\11_01_2024_18_04_06\\data_validation\\drift_report\\report.yaml')
+[ 2024-11-01 18:05:31,887 ] 68 root - INFO - Initiate the data Transformation
+[ 2024-11-01 18:05:31,887 ] 58 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 18:05:31,887 ] 60 root - INFO - starting data_transformation
+[ 2024-11-01 18:05:31,943 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
+[ 2024-11-01 18:05:31,943 ] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-01 18:05:31,966 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 18:05:31,970 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 18:05:31,970 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 18:05:31,973 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 18:05:31,973 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 18:05:31,977 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 18:05:31,977 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 18:05:31,983 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 18:05:31,984 ] 70 root - INFO - Data Transformation completed and artifact: DataTransformationArtifact(transformed_object_file_path='Artifacts\\11_01_2024_18_04_06\\data_transformations\\transformed_object\\preprocessing.pkl', transformed_train_file_path='Artifacts\\11_01_2024_18_04_06\\data_transformations\\transformed\\train.npy', transformed_test_file_path='Artifacts\\11_01_2024_18_04_06\\data_transformations\\transformed\\test.npy')
+[ 2024-11-01 18:05:31,985 ] 85 root - INFO - Initiate the Model trainer
+[ 2024-11-01 18:05:40,459 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 18:05:40,561 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 18:05:40,561 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 18:05:40,662 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 18:05:40,662 ] 114 root - INFO - Model Trainer Artifact is : ModelTrainerArtifact(trained_model_file_path='Artifacts\\11_01_2024_18_04_06\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9913731858317264), precision_score=np.float64(0.9890643985419199), recall_score=np.float64(0.9936927772126144)), test_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9764282860567319), precision_score=np.float64(0.9690721649484536), recall_score=np.float64(0.9838969404186796)))
+[ 2024-11-01 18:05:40,672 ] 87 root - INFO - Model training completed and artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\11_01_2024_18_04_06\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9913731858317264), precision_score=np.float64(0.9890643985419199), recall_score=np.float64(0.9936927772126144)), test_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9764282860567319), precision_score=np.float64(0.9690721649484536), recall_score=np.float64(0.9838969404186796)))
+[ 2024-11-01 18:05:40,675 ] 43 root - INFO - Training pipeline completed successfully.
+[ 2024-11-01 18:05:40,676 ] 97 werkzeug - INFO - 127.0.0.1 - - [01/Nov/2024 18:05:40] "GET /train HTTP/1.1" 200 -
+[ 2024-11-01 18:06:56,424 ] 46 root - ERROR - Error in training pipeline
+Traceback (most recent call last):
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\components\model_trainer.py", line 136, in initiate_model_trainer
+    model_trainer_artifact = self.train_model(X_train, y_train,X_test,y_test)
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\components\model_trainer.py", line 94, in train_model
+    self.track_mlflow(best_model, classification_train_metric)
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\components\model_trainer.py", line 35, in track_mlflow
+    with mlflow.start_run():
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\venv\lib\site-packages\mlflow\tracking\fluent.py", line 321, in start_run
+    raise Exception(
+Exception: Run with UUID f363b205b6914fdf9e9edf2aea17c58d is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\pipeline\training_pipeline.py", line 86, in start_model_trainer
+    model_trainer_artifact = model_trainer.initiate_model_trainer()
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\components\model_trainer.py", line 142, in initiate_model_trainer
+    raise NetworkSecurityException(e,sys)
+networksecurity.exception.exception.NetworkSecurityException: Error occured in python script name [C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\components\model_trainer.py] line number [136] error message [Run with UUID f363b205b6914fdf9e9edf2aea17c58d is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\pipeline\training_pipeline.py", line 99, in run_pipeline
+    model_trainer_artifact = self.start_model_trainer(data_transformation_artifact)
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\pipeline\training_pipeline.py", line 92, in start_model_trainer
+    raise NetworkSecurityException(e, sys)
+networksecurity.exception.exception.NetworkSecurityException: Error occured in python script name [C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\pipeline\training_pipeline.py] line number [86] error message [Error occured in python script name [C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\components\model_trainer.py] line number [136] error message [Run with UUID f363b205b6914fdf9e9edf2aea17c58d is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\app.py", line 42, in train_route
+    train_pipeline.run_pipeline()
+  File "C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\pipeline\training_pipeline.py", line 104, in run_pipeline
+    raise NetworkSecurityException(e,sys)
+networksecurity.exception.exception.NetworkSecurityException: Error occured in python script name [C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\pipeline\training_pipeline.py] line number [99] error message [Error occured in python script name [C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\pipeline\training_pipeline.py] line number [86] error message [Error occured in python script name [C:\Users\Dell\OneDrive\Desktop\ML_OPS\Project\networksecurity\components\model_trainer.py] line number [136] error message [Run with UUID f363b205b6914fdf9e9edf2aea17c58d is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True]]]
+[ 2024-11-01 18:06:56,462 ] 97 werkzeug - INFO - 127.0.0.1 - - [01/Nov/2024 18:06:56] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2024-11-01 18:07:16,859 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 18:07:16,859 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 18:07:16,859 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 18:07:16,873 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 18:07:16,873 ] 114 root - INFO - Model Trainer Artifact is : ModelTrainerArtifact(trained_model_file_path='Artifacts\\11_01_2024_18_04_06\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9913131313131314), precision_score=np.float64(0.9885173247381144), recall_score=np.float64(0.9941247974068071)), test_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9771054783319706), precision_score=np.float64(0.9755102040816327), recall_score=np.float64(0.9787059787059788)))
+[ 2024-11-01 18:07:16,878 ] 87 root - INFO - Model training completed and artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\11_01_2024_18_04_06\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9913131313131314), precision_score=np.float64(0.9885173247381144), recall_score=np.float64(0.9941247974068071)), test_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9771054783319706), precision_score=np.float64(0.9755102040816327), recall_score=np.float64(0.9787059787059788)))
+[ 2024-11-01 18:07:16,878 ] 43 root - INFO - Training pipeline completed successfully.
+[ 2024-11-01 18:07:16,878 ] 97 werkzeug - INFO - 127.0.0.1 - - [01/Nov/2024 18:07:16] "GET /train HTTP/1.1" 200 -
+[ 2024-11-01 18:28:20,590 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-11-01 18:28:20,590 ] 107 dagshub - INFO - Accessing as stevenayare
+[ 2024-11-01 18:28:21,173 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/stevenayare/Net_project "HTTP/1.1 200 OK"
+[ 2024-11-01 18:28:21,173 ] 107 dagshub - INFO - Initialized MLflow to track repo "stevenayare/Net_project"
+[ 2024-11-01 18:28:21,173 ] 107 dagshub - INFO - Repository stevenayare/Net_project initialized!
+[ 2024-11-01 18:28:33,084 ] 31 root - INFO - Starting training pipeline.
+[ 2024-11-01 18:28:33,085 ] 43 root - INFO - Start data Ingestion
+[ 2024-11-01 18:28:34,903 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 18:28:34,903 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 18:28:34,903 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 18:28:34,973 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 18:28:34,973 ] 46 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\11_01_2024_18_28_17\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\11_01_2024_18_28_17\\data_ingestion\\ingested\\test.csv')
+[ 2024-11-01 18:28:34,983 ] 56 root - INFO - Initiate the data Validation
+[ 2024-11-01 18:28:35,043 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 18:28:35,043 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 18:28:35,043 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 18:28:35,043 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 18:28:35,204 ] 58 root - INFO - Data Validation completed and artifact: DataValidationArtifact(validation_status=None, valid_train_file_path='Artifacts\\11_01_2024_18_28_17\\data_ingestion\\ingested\\train.csv', valid_test_file_path='Artifacts\\11_01_2024_18_28_17\\data_ingestion\\ingested\\test.csv', invalid_train_file_path=None, invalid_test_file_path=None, drift_report_file_path='Artifacts\\11_01_2024_18_28_17\\data_validation\\drift_report\\report.yaml')
+[ 2024-11-01 18:28:35,204 ] 68 root - INFO - Initiate the data Transformation
+[ 2024-11-01 18:28:35,204 ] 58 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 18:28:35,204 ] 60 root - INFO - starting data_transformation
+[ 2024-11-01 18:28:35,223 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
+[ 2024-11-01 18:28:35,223 ] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-01 18:28:35,241 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 18:28:35,244 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 18:28:35,245 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 18:28:35,247 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 18:28:35,247 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 18:28:35,251 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 18:28:35,251 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 18:28:35,254 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 18:28:35,256 ] 70 root - INFO - Data Transformation completed and artifact: DataTransformationArtifact(transformed_object_file_path='Artifacts\\11_01_2024_18_28_17\\data_transformations\\transformed_object\\preprocessing.pkl', transformed_train_file_path='Artifacts\\11_01_2024_18_28_17\\data_transformations\\transformed\\train.npy', transformed_test_file_path='Artifacts\\11_01_2024_18_28_17\\data_transformations\\transformed\\test.npy')
+[ 2024-11-01 18:28:35,256 ] 85 root - INFO - Initiate the Model trainer
+[ 2024-11-01 18:29:55,677 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 18:29:55,819 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 18:29:55,819 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 18:29:55,947 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 18:29:55,947 ] 114 root - INFO - Model Trainer Artifact is : ModelTrainerArtifact(trained_model_file_path='Artifacts\\11_01_2024_18_28_17\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9915185783521809), precision_score=np.float64(0.9883252818035426), recall_score=np.float64(0.9947325769854133)), test_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9737161342498989), precision_score=np.float64(0.9616613418530351), recall_score=np.float64(0.9860769860769861)))
+[ 2024-11-01 18:29:55,954 ] 87 root - INFO - Model training completed and artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\11_01_2024_18_28_17\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9915185783521809), precision_score=np.float64(0.9883252818035426), recall_score=np.float64(0.9947325769854133)), test_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9737161342498989), precision_score=np.float64(0.9616613418530351), recall_score=np.float64(0.9860769860769861)))
+[ 2024-11-01 18:29:55,955 ] 35 root - INFO - Training pipeline completed successfully.
