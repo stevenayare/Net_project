@@ -1,0 +1,53 @@
+[ 2024-11-01 11:54:10,656 ] 15 root - INFO - Initiate the data ingestion...
+[ 2024-11-01 11:54:12,735 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 11:54:12,735 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 11:54:12,735 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 11:54:12,816 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 11:54:12,816 ] 17 root - INFO -  Data ingestion completed successfully
+[ 2024-11-01 11:54:12,827 ] 21 root - INFO -  Data validation initialized successfully
+[ 2024-11-01 11:54:12,886 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 11:54:12,886 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 11:54:12,886 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 11:54:12,886 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 11:54:13,046 ] 23 root - INFO -  Data validation completed successfully
+[ 2024-11-01 11:54:49,775 ] 15 root - INFO - Initiate the data ingestion...
+[ 2024-11-01 11:54:51,711 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 11:54:51,711 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 11:54:51,711 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 11:54:51,781 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 11:54:51,781 ] 17 root - INFO -  Data ingestion completed successfully
+[ 2024-11-01 11:54:51,791 ] 21 root - INFO -  Data validation initialized successfully
+[ 2024-11-01 11:54:51,839 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 11:54:51,849 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 11:54:51,849 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 11:54:51,849 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 11:54:52,103 ] 23 root - INFO -  Data validation completed successfully
+[ 2024-11-01 11:57:13,158 ] 15 root - INFO - Initiate the data ingestion...
+[ 2024-11-01 11:57:15,321 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 11:57:15,321 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 11:57:15,322 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 11:57:15,398 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 11:57:15,399 ] 17 root - INFO -  Data ingestion completed successfully
+[ 2024-11-01 11:57:15,406 ] 21 root - INFO -  Data validation initialized successfully
+[ 2024-11-01 11:57:15,456 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 11:57:15,456 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 11:57:15,456 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 11:57:15,456 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 11:57:15,628 ] 23 root - INFO -  Data validation completed successfully
+[ 2024-11-01 11:57:15,628 ] 26 root - INFO -  Data Transformation initialized successfully
+[ 2024-11-01 11:59:22,459 ] 15 root - INFO - Initiate the data ingestion...
+[ 2024-11-01 11:59:26,384 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 11:59:26,384 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 11:59:26,384 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 11:59:26,469 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 11:59:26,470 ] 17 root - INFO -  Data ingestion completed successfully
+[ 2024-11-01 11:59:26,480 ] 21 root - INFO -  Data validation initialized successfully
+[ 2024-11-01 11:59:26,525 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 11:59:26,525 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 11:59:26,525 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 11:59:26,525 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 11:59:26,718 ] 23 root - INFO -  Data validation completed successfully
+[ 2024-11-01 11:59:26,718 ] 26 root - INFO -  Data Transformation initialized successfully
+[ 2024-11-01 11:59:26,718 ] 55 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 11:59:26,718 ] 57 root - INFO - starting data_transformation
+[ 2024-11-01 11:59:26,748 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
