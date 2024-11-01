@@ -1,0 +1,331 @@
+[ 2024-11-01 15:11:54,307 ] 16 root - INFO - Initiate the data ingestion...
+[ 2024-11-01 15:11:58,235 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 15:11:58,235 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 15:11:58,235 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 15:11:58,314 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 15:11:58,314 ] 18 root - INFO -  Data ingestion completed successfully
+[ 2024-11-01 15:11:58,324 ] 22 root - INFO -  Data validation initialized successfully
+[ 2024-11-01 15:11:58,387 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:11:58,387 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:11:58,388 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:11:58,388 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:11:58,554 ] 24 root - INFO -  Data validation completed successfully
+[ 2024-11-01 15:11:58,554 ] 27 root - INFO -  Data Transformation initialized successfully
+[ 2024-11-01 15:11:58,554 ] 58 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 15:11:58,554 ] 60 root - INFO - starting data_transformation
+[ 2024-11-01 15:11:58,594 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
+[ 2024-11-01 15:11:58,595 ] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-01 15:11:58,599 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:11:58,609 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:11:58,609 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:11:58,609 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:11:58,609 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 15:11:58,615 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 15:11:58,617 ] 30 root - INFO -  Data Transformation completed successfully
+[ 2024-11-01 15:11:58,617 ] 33 root - INFO -  Model Training started 
+[ 2024-11-01 15:13:22,887 ] 16 root - INFO - Initiate the data ingestion...
+[ 2024-11-01 15:13:24,727 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 15:13:24,727 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 15:13:24,727 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 15:13:24,807 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 15:13:24,807 ] 18 root - INFO -  Data ingestion completed successfully
+[ 2024-11-01 15:13:24,817 ] 22 root - INFO -  Data validation initialized successfully
+[ 2024-11-01 15:13:24,894 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:13:24,894 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:13:24,894 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:13:24,894 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:13:25,068 ] 24 root - INFO -  Data validation completed successfully
+[ 2024-11-01 15:13:25,068 ] 27 root - INFO -  Data Transformation initialized successfully
+[ 2024-11-01 15:13:25,068 ] 58 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 15:13:25,068 ] 60 root - INFO - starting data_transformation
+[ 2024-11-01 15:13:25,094 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
+[ 2024-11-01 15:13:25,094 ] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-01 15:13:25,098 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:13:25,098 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:13:25,098 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:13:25,108 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:13:25,108 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 15:13:25,108 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 15:13:25,108 ] 30 root - INFO -  Data Transformation completed successfully
+[ 2024-11-01 15:13:25,108 ] 33 root - INFO -  Model Training started 
+[ 2024-11-01 15:14:13,567 ] 16 root - INFO - Initiate the data ingestion...
+[ 2024-11-01 15:14:15,486 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 15:14:15,486 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 15:14:15,486 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 15:14:15,566 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 15:14:15,566 ] 18 root - INFO -  Data ingestion completed successfully
+[ 2024-11-01 15:14:15,576 ] 22 root - INFO -  Data validation initialized successfully
+[ 2024-11-01 15:14:15,635 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:14:15,635 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:14:15,635 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:14:15,635 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:14:15,797 ] 24 root - INFO -  Data validation completed successfully
+[ 2024-11-01 15:14:15,797 ] 27 root - INFO -  Data Transformation initialized successfully
+[ 2024-11-01 15:14:15,797 ] 58 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 15:14:15,797 ] 60 root - INFO - starting data_transformation
+[ 2024-11-01 15:14:15,817 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
+[ 2024-11-01 15:14:15,817 ] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-01 15:14:15,833 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:14:15,833 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:14:15,833 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:14:15,833 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:14:15,833 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 15:14:15,842 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 15:14:15,842 ] 30 root - INFO -  Data Transformation completed successfully
+[ 2024-11-01 15:14:15,842 ] 33 root - INFO -  Model Training started 
+[ 2024-11-01 15:14:58,680 ] 16 root - INFO - Initiate the data ingestion...
+[ 2024-11-01 15:15:00,511 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 15:15:00,511 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 15:15:00,511 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 15:15:00,593 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 15:15:00,593 ] 18 root - INFO -  Data ingestion completed successfully
+[ 2024-11-01 15:15:00,605 ] 22 root - INFO -  Data validation initialized successfully
+[ 2024-11-01 15:15:00,649 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:15:00,649 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:15:00,649 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:15:00,649 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:15:00,828 ] 24 root - INFO -  Data validation completed successfully
+[ 2024-11-01 15:15:00,838 ] 27 root - INFO -  Data Transformation initialized successfully
+[ 2024-11-01 15:15:00,838 ] 58 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 15:15:00,838 ] 60 root - INFO - starting data_transformation
+[ 2024-11-01 15:15:00,884 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
+[ 2024-11-01 15:15:00,884 ] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-01 15:15:00,900 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:15:00,903 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:15:00,904 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:15:00,905 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:15:00,905 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 15:15:00,907 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 15:15:00,907 ] 30 root - INFO -  Data Transformation completed successfully
+[ 2024-11-01 15:15:00,913 ] 33 root - INFO -  Model Training started 
+[ 2024-11-01 15:18:17,950 ] 16 root - INFO - Initiate the data ingestion...
+[ 2024-11-01 15:18:21,806 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 15:18:21,806 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 15:18:21,806 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 15:18:21,887 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 15:18:21,887 ] 18 root - INFO -  Data ingestion completed successfully
+[ 2024-11-01 15:18:21,897 ] 22 root - INFO -  Data validation initialized successfully
+[ 2024-11-01 15:18:21,971 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:18:21,971 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:18:21,971 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:18:21,971 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:18:22,150 ] 24 root - INFO -  Data validation completed successfully
+[ 2024-11-01 15:18:22,150 ] 27 root - INFO -  Data Transformation initialized successfully
+[ 2024-11-01 15:18:22,150 ] 58 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 15:18:22,150 ] 60 root - INFO - starting data_transformation
+[ 2024-11-01 15:18:22,180 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
+[ 2024-11-01 15:18:22,180 ] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-01 15:18:22,180 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:18:22,190 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:18:22,190 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:18:22,192 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:18:22,192 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 15:18:22,194 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 15:18:22,197 ] 30 root - INFO -  Data Transformation completed successfully
+[ 2024-11-01 15:18:22,197 ] 33 root - INFO -  Model Training started 
+[ 2024-11-01 15:21:14,999 ] 16 root - INFO - Initiate the data ingestion...
+[ 2024-11-01 15:21:18,809 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 15:21:18,809 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 15:21:18,809 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 15:21:18,889 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 15:21:18,899 ] 18 root - INFO -  Data ingestion completed successfully
+[ 2024-11-01 15:21:18,909 ] 22 root - INFO -  Data validation initialized successfully
+[ 2024-11-01 15:21:18,965 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:21:18,965 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:21:18,965 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:21:18,965 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:21:19,138 ] 24 root - INFO -  Data validation completed successfully
+[ 2024-11-01 15:21:19,138 ] 27 root - INFO -  Data Transformation initialized successfully
+[ 2024-11-01 15:21:19,138 ] 58 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 15:21:19,143 ] 60 root - INFO - starting data_transformation
+[ 2024-11-01 15:21:19,163 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
+[ 2024-11-01 15:21:19,163 ] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-01 15:21:19,175 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:21:19,178 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:21:19,179 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:21:19,181 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:21:19,181 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 15:21:19,181 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 15:21:19,181 ] 30 root - INFO -  Data Transformation completed successfully
+[ 2024-11-01 15:21:19,181 ] 33 root - INFO -  Model Training started 
+[ 2024-11-01 15:25:51,015 ] 16 root - INFO - Initiate the data ingestion...
+[ 2024-11-01 15:25:55,006 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 15:25:55,006 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 15:25:55,006 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 15:25:55,086 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 15:25:55,086 ] 18 root - INFO -  Data ingestion completed successfully
+[ 2024-11-01 15:25:55,096 ] 22 root - INFO -  Data validation initialized successfully
+[ 2024-11-01 15:25:55,154 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:25:55,155 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:25:55,155 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:25:55,155 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:25:55,328 ] 24 root - INFO -  Data validation completed successfully
+[ 2024-11-01 15:25:55,328 ] 27 root - INFO -  Data Transformation initialized successfully
+[ 2024-11-01 15:25:55,328 ] 58 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 15:25:55,339 ] 60 root - INFO - starting data_transformation
+[ 2024-11-01 15:25:55,365 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
+[ 2024-11-01 15:25:55,365 ] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-01 15:25:55,375 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:25:55,375 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:25:55,375 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:25:55,379 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:25:55,379 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 15:25:55,379 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 15:25:55,379 ] 30 root - INFO -  Data Transformation completed successfully
+[ 2024-11-01 15:25:55,379 ] 33 root - INFO -  Model Training started 
+[ 2024-11-01 15:29:22,908 ] 16 root - INFO - Initiate the data ingestion...
+[ 2024-11-01 15:29:25,132 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 15:29:25,132 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 15:29:25,132 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 15:29:25,213 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 15:29:25,213 ] 18 root - INFO -  Data ingestion completed successfully
+[ 2024-11-01 15:29:25,223 ] 22 root - INFO -  Data validation initialized successfully
+[ 2024-11-01 15:29:25,281 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:29:25,281 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:29:25,282 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:29:25,282 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:29:25,468 ] 24 root - INFO -  Data validation completed successfully
+[ 2024-11-01 15:29:25,468 ] 27 root - INFO -  Data Transformation initialized successfully
+[ 2024-11-01 15:29:25,468 ] 58 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 15:29:25,468 ] 60 root - INFO - starting data_transformation
+[ 2024-11-01 15:29:25,492 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
+[ 2024-11-01 15:29:25,493 ] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-01 15:29:25,497 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:29:25,497 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:29:25,497 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:29:25,506 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:29:25,506 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 15:29:25,506 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 15:29:25,506 ] 30 root - INFO -  Data Transformation completed successfully
+[ 2024-11-01 15:29:25,506 ] 33 root - INFO -  Model Training started 
+[ 2024-11-01 15:34:45,591 ] 19 root - INFO - Initiate the data ingestion...
+[ 2024-11-01 15:34:46,487 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 15:34:46,487 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 15:34:46,487 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 15:34:46,567 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 15:34:46,567 ] 21 root - INFO -  Data ingestion completed successfully
+[ 2024-11-01 15:34:46,587 ] 25 root - INFO -  Data validation initialized successfully
+[ 2024-11-01 15:34:46,676 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:34:46,676 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:34:46,676 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:34:46,676 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:34:46,860 ] 27 root - INFO -  Data validation completed successfully
+[ 2024-11-01 15:34:46,860 ] 30 root - INFO -  Data Transformation initialized successfully
+[ 2024-11-01 15:34:46,860 ] 58 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 15:34:46,860 ] 60 root - INFO - starting data_transformation
+[ 2024-11-01 15:34:46,880 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
+[ 2024-11-01 15:34:46,880 ] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-01 15:34:46,896 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:34:46,896 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:34:46,896 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:34:46,896 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:34:46,896 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 15:34:46,906 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 15:34:46,906 ] 33 root - INFO -  Data Transformation completed successfully
+[ 2024-11-01 15:34:46,906 ] 36 root - INFO -  Model Training started 
+[ 2024-11-01 15:37:06,677 ] 19 root - INFO - Initiate the data ingestion...
+[ 2024-11-01 15:37:08,493 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 15:37:08,493 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 15:37:08,493 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 15:37:08,566 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 15:37:08,567 ] 21 root - INFO -  Data ingestion completed successfully
+[ 2024-11-01 15:37:08,575 ] 25 root - INFO -  Data validation initialized successfully
+[ 2024-11-01 15:37:08,615 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:37:08,615 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:37:08,615 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:37:08,615 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:37:08,787 ] 27 root - INFO -  Data validation completed successfully
+[ 2024-11-01 15:37:08,787 ] 30 root - INFO -  Data Transformation initialized successfully
+[ 2024-11-01 15:37:08,787 ] 58 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 15:37:08,787 ] 60 root - INFO - starting data_transformation
+[ 2024-11-01 15:37:08,814 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
+[ 2024-11-01 15:37:08,814 ] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-01 15:37:08,821 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:37:08,825 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:37:08,825 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:37:08,827 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:37:08,827 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 15:37:08,829 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 15:37:08,831 ] 33 root - INFO -  Data Transformation completed successfully
+[ 2024-11-01 15:37:08,831 ] 36 root - INFO -  Model Training started 
+[ 2024-11-01 15:46:35,037 ] 19 root - INFO - Initiate the data ingestion...
+[ 2024-11-01 15:46:37,002 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 15:46:37,002 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 15:46:37,002 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 15:46:37,082 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 15:46:37,082 ] 21 root - INFO -  Data ingestion completed successfully
+[ 2024-11-01 15:46:37,092 ] 25 root - INFO -  Data validation initialized successfully
+[ 2024-11-01 15:46:37,151 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:46:37,151 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:46:37,151 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:46:37,151 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:46:37,336 ] 27 root - INFO -  Data validation completed successfully
+[ 2024-11-01 15:46:37,336 ] 30 root - INFO -  Data Transformation initialized successfully
+[ 2024-11-01 15:46:37,336 ] 58 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 15:46:37,336 ] 60 root - INFO - starting data_transformation
+[ 2024-11-01 15:46:37,360 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
+[ 2024-11-01 15:46:37,361 ] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-01 15:46:37,362 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:46:37,372 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:46:37,372 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:46:37,372 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:46:37,372 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 15:46:37,377 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 15:46:37,377 ] 33 root - INFO -  Data Transformation completed successfully
+[ 2024-11-01 15:46:37,377 ] 36 root - INFO -  Model Training started 
+[ 2024-11-01 15:49:37,859 ] 19 root - INFO - Initiate the data ingestion...
+[ 2024-11-01 15:49:39,693 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 15:49:39,693 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 15:49:39,693 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 15:49:39,786 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 15:49:39,786 ] 21 root - INFO -  Data ingestion completed successfully
+[ 2024-11-01 15:49:39,796 ] 25 root - INFO -  Data validation initialized successfully
+[ 2024-11-01 15:49:39,852 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:49:39,852 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:49:39,852 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:49:39,852 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:49:40,027 ] 27 root - INFO -  Data validation completed successfully
+[ 2024-11-01 15:49:40,036 ] 30 root - INFO -  Data Transformation initialized successfully
+[ 2024-11-01 15:49:40,036 ] 58 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 15:49:40,036 ] 60 root - INFO - starting data_transformation
+[ 2024-11-01 15:49:40,056 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
+[ 2024-11-01 15:49:40,056 ] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-01 15:49:40,067 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:49:40,071 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:49:40,072 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:49:40,073 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:49:40,073 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 15:49:40,080 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 15:49:40,081 ] 33 root - INFO -  Data Transformation completed successfully
+[ 2024-11-01 15:49:40,081 ] 36 root - INFO -  Model Training started 
+[ 2024-11-01 15:50:27,683 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 15:50:27,737 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 15:51:55,115 ] 19 root - INFO - Initiate the data ingestion...
+[ 2024-11-01 15:51:57,149 ] 80 root - INFO -  Performed trained test split on the dataframe
+[ 2024-11-01 15:51:57,149 ] 81 root - INFO -  Exited split_data_as_train_test_split method of DataIngestion class.
+[ 2024-11-01 15:51:57,149 ] 85 root - INFO -  Exporting train and test file paths 
+[ 2024-11-01 15:51:57,219 ] 90 root - INFO -  Exported train and test file paths 
+[ 2024-11-01 15:51:57,219 ] 21 root - INFO -  Data ingestion completed successfully
+[ 2024-11-01 15:51:57,229 ] 25 root - INFO -  Data validation initialized successfully
+[ 2024-11-01 15:51:57,293 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:51:57,293 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:51:57,294 ] 131 root - INFO - Needed number of columns are: 2
+[ 2024-11-01 15:51:57,294 ] 132 root - INFO - Dataframe has columns: 31
+[ 2024-11-01 15:51:57,552 ] 27 root - INFO -  Data validation completed successfully
+[ 2024-11-01 15:51:57,552 ] 30 root - INFO -  Data Transformation initialized successfully
+[ 2024-11-01 15:51:57,552 ] 58 root - INFO - Entering data_transformation method of DataTransformation class
+[ 2024-11-01 15:51:57,552 ] 60 root - INFO - starting data_transformation
+[ 2024-11-01 15:51:57,582 ] 42 root - INFO - Entered get_data_transformation_object of DataTranformation class
+[ 2024-11-01 15:51:57,582 ] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-01 15:51:57,593 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:51:57,593 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:51:57,593 ] 36 root - INFO - Entered save_numpy_array_data method
+[ 2024-11-01 15:51:57,593 ] 40 root - INFO - Exited save_numpy_array_data method and saved array 
+[ 2024-11-01 15:51:57,593 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 15:51:57,593 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 15:51:57,593 ] 33 root - INFO -  Data Transformation completed successfully
+[ 2024-11-01 15:51:57,603 ] 36 root - INFO -  Model Training started 
+[ 2024-11-01 15:52:36,356 ] 45 root - INFO - Entered save object  method
+[ 2024-11-01 15:52:36,409 ] 49 root - INFO - Exited save object method and saved object 
+[ 2024-11-01 15:52:36,409 ] 93 root - INFO - Model Trainer Artifact is : ModelTrainerArtifact(trained_model_file_path='Artifacts\\11_01_2024_15_51_53\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.991177060356928), precision_score=np.float64(0.9882047181127549), recall_score=np.float64(0.9941673370876911)), test_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9752412924884599), precision_score=np.float64(0.9699499165275459), recall_score=np.float64(0.980590717299578)))
+[ 2024-11-01 15:52:36,419 ] 42 root - INFO -  Model Training artifact created successfully
